@@ -1,0 +1,122 @@
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: #1c2225;
+  color: #fcf9f9;
+}
+
+/* #region Base styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1280px;
+  padding-left: 50px;
+  padding-right: 50px;
+  /* outline для наглядності, не забудьте видалити перед здачею ДЗ*/
+  outline: 1px solid red;
+}
+/* #endregion */
+
+/* #region Header */
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 60px;
+}
+.logo-svg {
+}
+.nav {
+}
+.nav-list {
+  display: flex;
+  gap: 25px;
+}
+.nav-item {
+}
+.nav-link {
+  display: block;
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-transform: uppercase;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #ecd979;
+}
+.address {
+  margin-left: auto;
+  margin-right: 20px;
+}
+.phone {
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  padding: 14px 28px;
+}
+.phone:hover,
+.phone:focus {
+  border: 1px solid #ecd979;
+}
+.soc-list {
+  display: flex;
+  gap: 12px;
+}
+.soc-item {
+}
+.soc-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  background-color: rgba(252, 249, 249, 0.1);
+  padding: 8px;
+  width: 44px;
+  height: 44px;
+}
+.soc-link:hover,
+.soc-link:focus {
+  border: 1px solid #ecd979;
+  background-color: transparent;
+}
+
+/* #endregion */
